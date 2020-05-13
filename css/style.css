@@ -1,0 +1,39 @@
+body {
+    background: azure;
+    font-family: Arial;
+    margin: 0;
+   }
+   
+   li a {
+     text-decoration: none;
+     color: black;
+   }
+   
+   .menu ul{
+     display: flex;
+     justify-content: space-around;
+   }
+   
+   .menu li{
+     list-style: none;
+     margin: 0px 10px;
+     padding: 10px;
+     border: solid gray 1px;
+     border-radius: 12%
+   }
+   
+   .menu li:hover{
+     background: #005099;
+     margin: 0px 10px;
+     padding: 10px 20px;
+   }
+   
+   .site-title,
+   .site-subtitle{
+     color: gray;
+     text-align: center;  
+   }
+   
+   .site-subtitle {
+     font-style: italic;
+   }
